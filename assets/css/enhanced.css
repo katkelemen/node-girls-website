@@ -1,0 +1,48 @@
+/*this rules are for screen 48em = 768px*/
+h3 img {
+    width: 400px;
+}
+.bottom_text {
+    bottom: 25%;
+}
+.logo {
+    background-image: url("../img/nodeB.png");
+    width: 102px;
+    height: 102px;
+}
+h1 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+/*.logo {*/
+    /*width: 80px;*/
+    /*height: 80px;*/
+    /*line-height: 80px;*/
+    /*font-size: 2em;*/
+/*}*/
+.bottom_text h5 {
+    font-size: 1.2em;
+}
+/************End Global**************/
+
+
+/*60.375em * 16px = 966px*/
+@media screen and (min-width: 60.375em) {
+    h3 {font-size: 4em;}
+    .bottom_text {
+        bottom: 35%;
+    }
+    #front_text {
+        top: 35%;
+    }
+}
+
+/*76.5em * 16px = 1224px*/
+@media screen and (min-width: 76.5em) {
+
+    /*h3 {font-size: 6.3em;}*/
+
+}
